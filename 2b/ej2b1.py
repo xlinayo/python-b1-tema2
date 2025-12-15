@@ -52,6 +52,10 @@ Exemple:
 def sum_list_numbers(
     list_numbers):
     # Write here your code
+    result = 0
+        for i in list_numbers:
+            result += i
+        return result
     pass
 
 
