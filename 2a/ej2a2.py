@@ -67,11 +67,15 @@ Sortida:
 
 def tax_calculation_group_1(value: int):
     # Write here your code
+    tax_1 = 19
+    return (value * tax_1) / 100
     pass
 
 
 def tax_calculation_global(value: int):
     # Write here your code
+    tax_2 = 24
+    return (value * tax_2) / 100
     pass
 
 
