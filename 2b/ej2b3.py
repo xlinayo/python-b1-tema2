@@ -50,6 +50,9 @@ Exemple:
 def triangle_area_calculate(
     base, height):
     # Write here your code
+    if base <= 0 or height <= 0:
+        raise ValueError("Numbers must be positive")
+    return (base * height) / 2
     pass
 
 
